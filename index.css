@@ -100,7 +100,7 @@ nav .container{
 }
 
 nav .search-bar {
-    background: var(--color-light);
+    background: var(--color-white);
     border-radius: var(--border-radius);
     padding: var(--search-padding);
 }
