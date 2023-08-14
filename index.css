@@ -17,6 +17,11 @@
     --btn-padding: 0.6rem 2rem;
     --search-padding: 0.6rem 1rem;
     --card-padding: 1rem;
+
+
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+
 }
 
 
@@ -123,3 +128,38 @@ nav .create {
     gap: 2rem;
 }
 
+
+/* main styles */
+
+
+main {
+    position: relative;
+    top: 5.4rem;
+}
+
+main .container {
+    display: grid;
+    grid-template-columns: 18vh auto 20vh;
+    column-gap: 2rem;
+    position: relative;
+}
+
+/* left side bar styles */
+
+main .container .left {
+    height: max-content;
+    position: sticky;
+    top: var(--sticky-top-left);
+}
+
+main .container .left .profile {
+    padding: var(--card-padding);
+    background: var(--color-light);
+    border-radius: var(--card-border-radius);
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    width: 100%;
+}
+
+/* the actual sidebar */
