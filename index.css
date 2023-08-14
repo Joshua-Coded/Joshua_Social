@@ -359,3 +359,11 @@ main .container .left .profile {
     background: url('./images/story-3.jpg')
      no-repeat center center/cover;
 }
+
+.middle .story .profile-picture {
+    width: 2rem;
+    height: 2rem;
+    align-items: start;
+    border: 3px solid var(--color-primary);
+}
+
