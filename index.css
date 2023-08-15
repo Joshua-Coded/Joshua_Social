@@ -501,10 +501,27 @@ main .container .left .profile {
     align-items: start;
  }
 
+ .right .message .profile-picture {
+    position: relative;
+    overflow: visible;
+ }
+
+ .right .profile-picture img {
+    border-radius: 50%;
+ }
+
  .right .messages .message:last-child{
     margin: 0;
  }
 
  .right .messages .message p {
     font-size: 0.8rem;
+ }
+
+ .right .messages .message .profile-picture {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid var(--color-white);
+
  }
